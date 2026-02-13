@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background: linear-gradient(to bottom,
+            black 0%,
+            lime 50%,
+            black 100%);
+}
+
+.card {
+    text-align: center;
+    background: purple;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #5ce924;
+    color: white;
+}
+
+#yesBtn:hover {
+    background-color: #6ae639;
+}
+
+#noBtn {
+    background-color: #6c757d;
+    color: white;
+    position: absolute;
+}
+
+#teddyContainer {
+    position: absolute;
+    text-align: center;
+}
+
+.teddy {
+    font-size: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
